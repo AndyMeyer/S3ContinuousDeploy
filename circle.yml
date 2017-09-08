@@ -5,4 +5,4 @@ deployment:
   prod:
     branch: master
     commands:
-      - aws s3 sync /home/ec2-user s3://example-docker-application-pray --delete
+      - aws s3 sync /home/ubuntu/S3ContinuousDeploy s3://example-docker-application-pray --delete
